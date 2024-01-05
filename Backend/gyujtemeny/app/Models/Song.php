@@ -8,6 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Song extends Model
 {
     use HasFactory;
+    
+    protected $primaryKey= 'song_id';
+
+
 
     protected $fillable = [
         'title',

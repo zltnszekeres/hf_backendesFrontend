@@ -17,8 +17,8 @@ class SongFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => fake()->word(),
-            'name' => fake()->word(), 
+            'title' => fake('hu_HU')->word(),
+            'name' => fake('hu_HU')->word(), 
             'date' => fake()->dateTimeBetween('2000-01-01', '2023-10-10'),
             
             
